@@ -8,9 +8,9 @@ from xgboost import XGBClassifier
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
 
-combat = pd.read_csv('C:/Users/ecsan/py_scripts/Independant Work/ml/poke_xgb/combats.csv')
-pokemon = pd.read_csv('C:/Users/ecsan/py_scripts/Independant Work/ml/poke_xgb/pokemon.csv')
-tests = pd.read_csv('C:/Users/ecsan/py_scripts/Independant Work/ml/poke_xgb/tests.csv')
+combat = pd.read_csv('C:/Users/XXX/py_scripts/Independant Work/ml/poke_xgb/combats.csv')
+pokemon = pd.read_csv('C:/Users/XXX/py_scripts/Independant Work/ml/poke_xgb/pokemon.csv')
+tests = pd.read_csv('C:/Users/XXX/py_scripts/Independant Work/ml/poke_xgb/tests.csv')
 
 #%% Create df for features based off of combat
 join_features = combat.join(
